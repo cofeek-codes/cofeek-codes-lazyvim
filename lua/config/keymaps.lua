@@ -48,3 +48,11 @@ map("n", "td", ":tabclose<Return>", opts)
 
 -- Enter as new line
 map("n", "<Return>", "o", opts)
+
+-- Move Lines
+map("n", "<A-down>", "<cmd>m .+1<cr>==", { desc = "Move Down" })
+map("n", "<A-up>", "<cmd>m .-2<cr>==", { desc = "Move Up" })
+map("i", "<A-down>", "<esc><cmd>m .+1<cr>==gi", { desc = "Move Down" })
+map("i", "<A-up>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move Up" })
+map("v", "<A-down>", ":m '>+1<cr>gv=gv", { desc = "Move Down" })
+map("v", "<A-up>", ":m '<-2<cr>gv=gv", { desc = "Move Up" })
