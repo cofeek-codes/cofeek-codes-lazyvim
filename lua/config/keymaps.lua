@@ -3,36 +3,36 @@
 -- Add any additional keymaps here
 
 local map = vim.keymap.set
-local opts = { noremap = true, silent = true }
+local opts = { noremap = true }
 
---- duplicate line
+-- Duplicate line
 map("n", "_", "yyp", opts)
 
---- delete word backwards
+-- Delete word backwards
 map("n", "<C-w>", "vbd", opts)
 
---- exit window
+-- Exit window
 map("n", "qq", ":q<Return>", opts)
 
---- Undo
+-- Undo
 map({ "n", "i" }, "<C-z>", "u", opts)
 
---- Copy to clipboard
+-- Copy to clipboard
 map("v", "<M-w>", "y", opts)
 
---- Cut to clipboard
+-- Cut to clipboard
 map("v", "<C-w>", "d", opts)
 
---- Paste from clipboard
+-- Paste from clipboard
 map("n", "<C-y>", "p", opts)
 
---- Select whole line
+-- Select whole line
 map("n", "<C-L>", "V", opts)
 
---- Delete to end of line
+-- Delete to end of line
 map("n", "d'", "d$", opts)
 
---- Movement
+-- Movement
 map({ "n", "v" }, "<C-right>", "el", opts)
 map({ "n", "v" }, "<C-left>", "bh", opts)
 map({ "n", "v" }, "<C-up>", "{", opts)
@@ -40,11 +40,11 @@ map({ "n", "v" }, "<C-down>", "}", opts)
 map({ "n", "v" }, "<C-e>", "$", opts)
 map({ "n", "v" }, "<C-q>", "0", opts)
 
---- Delete to end of line
+-- Delete to end of line
 map("n", "d'", "d$", opts)
 
---- Tabs
-map("n", "te", ":tabedit<Return>")
-map("n", "<tab>", ":tabnext<Return>")
-map("n", "<S-tab>", ":tabprev<Return>")
-map("n", "td", ":tabclose<Return>")
+-- Tabs
+map("n", "te", ":tabedit<Return>", opts)
+map("n", "<tab>", ":tabnext<Return>", opts)
+map("n", "<S-tab>", ":tabprev<Return>", opts)
+map("n", "td", ":tabclose<Return>", opts)
