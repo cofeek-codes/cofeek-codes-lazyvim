@@ -11,9 +11,6 @@ map("n", "_", "yyp", opts)
 -- Delete word backwards
 map("n", "<C-w>", "vbd", opts)
 
--- Exit window
-map("n", "qq", ":q<Return>", opts)
-
 -- Undo
 map({ "n", "i" }, "<C-z>", "u", opts)
 
