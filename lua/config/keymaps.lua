@@ -55,13 +55,13 @@ map("v", "<A-down>", ":m '>+1<cr>gv=gv", { desc = "Move Down" })
 map("v", "<A-up>", ":m '<-2<cr>gv=gv", { desc = "Move Up" })
 
 -- Windows (Panes)
-map("n", "<C-x>2", ":split<Return>", opts)
-map("n", "<C-x>3", ":vsplit<Return>", opts)
+map("n", "ss", ":split<Return>", opts)
+map("n", "sv", ":vsplit<Return>", opts)
 map("n", "<S-Left>", "<C-w>h", opts)
 map("n", "<S-Right>", "<C-w>l", opts)
 map("n", "<S-Up>", "<C-w>k", opts)
 map("n", "<S-Down>", "<C-w>j", opts)
-map("n", "<C-x>1", "<C-w>o", opts)
+map("n", "so", "<C-w>o", opts)
 
 -- Compilation mode
 map("n", "<C-c><C-c>", function()
