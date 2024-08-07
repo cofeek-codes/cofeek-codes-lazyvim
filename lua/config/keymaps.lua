@@ -8,9 +8,6 @@ local opts = { noremap = true }
 -- Duplicate line
 map("n", "_", "yyp", opts)
 
--- Delete word backwards
-map("n", "<C-w>", "vbd", opts)
-
 -- Undo
 map({ "n", "i" }, "<C-z>", "u", opts)
 
