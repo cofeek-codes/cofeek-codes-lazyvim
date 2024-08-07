@@ -6,9 +6,9 @@ return {
     },
     keys = {
       { "<leader>f;", ":Telescope file_browser<Return>", desc = "File Browser" },
+      { "<leader>s;", ":Telescope spell_suggest<Return>", desc = "Spell Suggest" },
     },
     config = function()
-      local fb_actions = require("telescope").extensions.file_browser.actions
       require("telescope").setup({
         extensions = {
           file_browser = {
