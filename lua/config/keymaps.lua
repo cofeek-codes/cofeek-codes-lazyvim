@@ -76,9 +76,7 @@ map("n", "<C-S-Up>", "<C-w>+", opts)
 map("n", "<C-S-Down>", "<C-w>-", opts)
 
 -- Compilation mode
-map("n", "<C-c><C-c>", function()
-  print("entered compilation-mode")
-end, opts)
+map("n", "<C-c><C-c>", ":Compile<Return>", opts)
 
 -- LSP
 map("n", "<C-j>", function()
