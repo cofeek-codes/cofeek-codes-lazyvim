@@ -1,4 +1,4 @@
-- [ ] - install [neorg](https://github.com/nvim-neorg/neorg/)
+- [x] - install [neorg](https://github.com/nvim-neorg/neorg/)
   - [ ] - install all the necessary modules
 - [ ] - install some image viewer
 - [ ] - figure out, how to view pdf and docx files
@@ -7,3 +7,4 @@
 - [x] - work with keybinds
 - [ ] - setup latex support
 - [ ] - setup RU locale support
+- [ ] - make theme transparent
