@@ -49,6 +49,9 @@ end, opts)
 -- Enter as new line
 map("n", "<Return>", "o", opts)
 
+-- Select all
+map("n", "<C-a>", "gg<S-v>G")
+
 -- Move Lines
 map("n", "<A-down>", "<cmd>m .+1<cr>==", { desc = "Move Down" })
 map("n", "<A-up>", "<cmd>m .-2<cr>==", { desc = "Move Up" })
