@@ -18,7 +18,7 @@ map("v", "<M-w>", "y", opts)
 map("v", "<C-w>", "d", opts)
 
 -- Paste from clipboard
-map("n", "<C-y>", "p", opts)
+map("n", "<C-y>", "P", opts)
 
 -- Select whole line
 map("n", "<C-L>", "V", opts)
