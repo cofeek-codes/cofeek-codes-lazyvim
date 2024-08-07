@@ -42,6 +42,9 @@ map("n", "te", ":tabedit<Return>", opts)
 map("n", "<tab>", ":tabnext<Return>", opts)
 map("n", "<S-tab>", ":tabprev<Return>", opts)
 map("n", "td", ":tabclose<Return>", opts)
+map("n", "to", function()
+  require("config.functions").close_other_buffers()
+end, opts)
 
 -- Enter as new line
 map("n", "<Return>", "o", opts)
