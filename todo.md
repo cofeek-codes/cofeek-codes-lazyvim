@@ -1,5 +1,6 @@
 - [ ] - install [neorg](https://github.com/nvim-neorg/neorg/)
 - [ ] - install some image viewer
 - [ ] - figure out, how to view pdf and docx files
+- [x] - setup [telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 - [x] - setup lsp
 - [x] - work with keybinds
