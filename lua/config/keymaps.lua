@@ -66,6 +66,12 @@ map("n", "<S-Up>", "<C-w>k", opts)
 map("n", "<S-Down>", "<C-w>j", opts)
 map("n", "so", "<C-w>o", opts)
 
+--Resize windows
+map("n", "<C-S-Left>", "<C-w><", opts)
+map("n", "<C-S-Right>", "<C-w>>", opts)
+map("n", "<C-S-Up>", "<C-w>+", opts)
+map("n", "<C-S-Down>", "<C-w>-", opts)
+
 -- Compilation mode
 map("n", "<C-c><C-c>", function()
   print("entered compilation-mode")
