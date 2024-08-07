@@ -63,3 +63,12 @@ map("n", "<S-Up>", "<C-w>k", opts)
 map("n", "<S-Down>", "<C-w>j", opts)
 map("n", "<C-x>1", "<C-w>o", opts)
 
+-- Compilation mode
+map("n", "<C-c><C-c>", function()
+  print("entered compilation-mode")
+end, opts)
+
+-- LSP
+map("n", "<C-j>", function()
+  vim.diagnostic.goto_next(opts)
+end)
