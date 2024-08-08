@@ -1,19 +1,20 @@
--- @FIXME: fix border highlight
 return {
   {
     "hrsh7th/nvim-cmp",
-    opts = {
-      window = {
+    opts = function(_, opts)
+      opts.window = {
         completion = {
           border = "rounded",
-          winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,CursorLine:PmenuSel",
+          winhighlight = "Normal:MyHighlight",
+          winblend = 0,
         },
 
         documentation = {
           border = "rounded",
-          winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,CursorLine:PmenuSel",
+          winhighlight = "Normal:MyHighlight",
+          winblend = 0,
         },
-      },
-    },
+      }
+    end,
   },
 }
