@@ -11,4 +11,4 @@
 - [ ] - setup RU locale support
 - [x] - make theme transparent
   - [ ] - make noice transparent
-- [ ] - fix bufferline
+- [x] - fix bufferline

@@ -39,8 +39,6 @@ map("n", "d'", "d$", opts)
 
 -- Tabs
 map("n", "te", ":tabedit<Return>", opts)
-map("n", "<tab>", ":tabnext<Return>", opts)
-map("n", "<S-tab>", ":tabprev<Return>", opts)
 map("n", "td", ":tabclose<Return>", opts)
 map("n", "to", function()
   require("config.functions").close_other_buffers()
