@@ -10,3 +10,5 @@
 - [ ] - setup latex support
 - [ ] - setup RU locale support
 - [x] - make theme transparent
+  - [ ] - make noice transparent
+- [ ] - fix bufferline
