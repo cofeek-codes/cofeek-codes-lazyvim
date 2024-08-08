@@ -1,3 +1,5 @@
+# Todo
+
 - [x] - install [neorg](https://github.com/nvim-neorg/neorg/)
   - [ ] - install all the necessary modules
 - [ ] - install some image viewer
@@ -7,4 +9,4 @@
 - [x] - work with keybinds
 - [ ] - setup latex support
 - [ ] - setup RU locale support
-- [ ] - make theme transparent
+- [x] - make theme transparent

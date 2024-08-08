@@ -77,8 +77,3 @@ map("n", "<C-S-Down>", "<C-w>-", opts)
 
 -- Compilation mode
 map("n", "<C-c><C-c>", ":Compile<Return>", opts)
-
--- LSP
-map("n", "<C-j>", function()
-  vim.diagnostic.goto_next(opts)
-end)
