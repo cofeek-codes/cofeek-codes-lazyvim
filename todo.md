@@ -12,3 +12,18 @@
 - [x] - make theme transparent
   - [ ] - make noice transparent
 - [x] - fix bufferline
+- [ ] - change `codeAction` sign from lspsaga's to default one from lspconfig
+
+use this:
+
+```lua
+opts = {
+ui = {
+        code_action = 'your icon'
+    }
+}
+```
+
+- [ ] change green color of brackets to gray(ish)
+- [ ] change rose-pine theme for terminal
+- [ ] change color of cmd text
