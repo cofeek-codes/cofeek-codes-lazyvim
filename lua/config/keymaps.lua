@@ -31,8 +31,8 @@ map({ "n", "v" }, "<C-right>", "el", opts)
 map({ "n", "v" }, "<C-left>", "bh", opts)
 map({ "n", "v" }, "<C-up>", "{", opts)
 map({ "n", "v" }, "<C-down>", "}", opts)
-map({ "n", "v" }, "<C-e>", "$", opts)
-map({ "n", "v" }, "<C-q>", "0", opts)
+map({ "n", "v" }, "'", "$", opts)
+map({ "n", "v" }, "a", "0", opts)
 
 -- Delete to end of line
 map("n", "d'", "d$", opts)
