@@ -7,7 +7,10 @@ return {
       variant = "main",
       styles = {
         transparency = true,
+        italic = false,
+        bold = false,
       },
+
       highlight_groups = {
         CursorLineNr = { link = "LineNr" },
       },
