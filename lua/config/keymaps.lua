@@ -74,10 +74,7 @@ map("n", "<C-S-Up>", "<C-w>+", opts)
 map("n", "<C-S-Down>", "<C-w>-", opts)
 
 -- Compilation mode
--- map("n", "<C-c><C-c>", ":Compile<Return>", opts)
-map("n", "<C-c><C-c>", function()
-  print(vim.inspect(require("lualine").get_config()))
-end, opts)
+map("n", "<C-c><C-c>", ":Compile<Return>", opts)
 
 -- Quickly go to insert-mode
-map("n", "<C-]>", "i", opts)
+map("n", "}", "i", opts) -- @NOTE: idk why this way, but this is how my fingers want it
