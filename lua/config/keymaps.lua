@@ -75,3 +75,6 @@ map("n", "<C-S-Down>", "<C-w>-", opts)
 
 -- Compilation mode
 map("n", "<C-c><C-c>", ":Compile<Return>", opts)
+
+-- Quickly go to insert-mode
+map("n", "<C-]>", "i", opts)
