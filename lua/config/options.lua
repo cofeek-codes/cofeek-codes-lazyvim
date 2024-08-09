@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.g.user_emmet_leader_key = ","
+
+vim.g.lazyvim_php_lsp = "intelephense"
