@@ -8,6 +8,9 @@ return {
       styles = {
         transparency = true,
       },
+      highlight_groups = {
+        CursorLineNr = { link = "LineNr" },
+      },
     },
   },
 }
