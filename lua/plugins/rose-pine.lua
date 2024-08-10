@@ -12,10 +12,8 @@ return {
       },
 
       highlight_groups = {
-        -- @NOTE: maybe there is a better way to set these colors
         CursorLineNr = { link = "LineNr" },
-        MatchParen = { link = "DiagnosticWarn" },
-        DiagnosticWarn = { bold = true },
+        MatchParen = { fg = "#f6c177", bg = "none", bold = true },
         CursorLine = { bg = "none" },
       },
     },
