@@ -20,9 +20,6 @@ map("v", "<C-w>", "d", opts)
 -- Paste from clipboard
 map("n", "<C-y>", "P", opts)
 
--- Select whole line
-map("n", "<C-L>", "V", opts)
-
 -- Delete to end of line
 map("n", "d'", "d$", opts)
 
@@ -74,7 +71,7 @@ map("n", "<C-S-Up>", "<C-w>+", opts)
 map("n", "<C-S-Down>", "<C-w>-", opts)
 
 -- Compilation mode
-map("n", "<C-c><C-c>", ":Compile<Return>", opts)
+map("n", "<C-l>", "<cmd>Compile<CR>", opts)
 
 -- Quickly go to insert-mode
 map("n", "<C-c>", "i", opts)
