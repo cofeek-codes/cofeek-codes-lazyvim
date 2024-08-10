@@ -5,7 +5,7 @@ return {
       opts.window = {
         completion = {
           border = "rounded",
-          winhighlight = "Normal:MyHighlight",
+          winhighlight = "Normal:MyHighlight,CursorLine:Visual",
           winblend = 0,
         },
 
