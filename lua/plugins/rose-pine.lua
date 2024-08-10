@@ -13,6 +13,7 @@ return {
 
       highlight_groups = {
         CursorLineNr = { link = "LineNr" },
+        MatchParen = { link = "DiagnosticWarn" },
       },
     },
   },
