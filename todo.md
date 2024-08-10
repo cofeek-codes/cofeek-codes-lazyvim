@@ -12,7 +12,7 @@
 - [x] - make theme transparent
   - [ ] - make noice transparent
 - [x] - fix bufferline
-- [ ] - change `codeAction` sign from lspsaga's to default one from lspconfig
+- [x] - change `codeAction` sign from lspsaga's to default one from lspconfig
 
 use this:
 
@@ -25,6 +25,6 @@ ui = {
 ```
 
 - [ ] change green color of brackets to gray(ish)
-- [ ] change rose-pine theme for terminal
+- [x] change rose-pine theme for terminal
 - [ ] change color of cmd text
 - [ ] remap `<C-c>` to switch modes

@@ -12,6 +12,10 @@ return {
       require("lspsaga").setup({
         ui = {
           border = "rounded",
+          code_action = "C",
+        },
+        lightbulb = {
+          virtual_text = false,
         },
       })
     end,
