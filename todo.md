@@ -27,3 +27,4 @@ ui = {
 - [ ] change green color of brackets to gray(ish)
 - [ ] change rose-pine theme for terminal
 - [ ] change color of cmd text
+- [ ] remap `<C-c>` to switch modes
