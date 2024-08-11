@@ -7,6 +7,9 @@ return {
         sign = false,
         icons = { "󰲡 ", "󰲣 ", "󰲥 ", "󰲧 ", "󰲩 ", "󰲫 " },
       },
+      code = {
+        style = "language",
+      },
     },
   },
 }
