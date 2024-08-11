@@ -13,7 +13,7 @@ return {
 
       highlight_groups = {
         CursorLineNr = { link = "LineNr" },
-        MatchParen = { fg = "#f6c177", bg = "none", bold = true },
+        MatchParen = { fg = "#f6c177", bg = "none", bold = true, inherit = false },
         CursorLine = { bg = "none" },
       },
     },
