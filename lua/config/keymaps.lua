@@ -20,6 +20,9 @@ map("v", "<C-w>", "d", opts)
 -- Paste from clipboard
 map("n", "<C-y>", "P", opts)
 
+-- Delete to start of line
+map("n", "da", "d0", opts)
+
 -- Delete to end of line
 map("n", "d'", "d$", opts)
 
@@ -43,6 +46,9 @@ end, opts)
 
 -- Enter as new line
 map("n", "<Return>", "o", opts)
+
+-- Shift+Enter as new line above
+map("n", "<A-Return>", "O", opts)
 
 -- Select all
 map("n", "<C-a>", "gg<S-v>G")
