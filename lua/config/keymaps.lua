@@ -38,11 +38,8 @@ map({ "n", "v" }, "a", "0", opts)
 map("n", "d'", "d$", opts)
 
 -- Tabs
-map("n", "te", ":tabedit<Return>", opts)
-map("n", "td", ":tabclose<Return>", opts)
-map("n", "to", function()
-  require("config.functions").close_other_buffers()
-end, opts)
+map("n", "te", "<cmd>tabedit<Return>", opts)
+map("n", "td", "<cmd>tabclose<Return>", opts)
 
 -- Enter as new line
 map("n", "<Return>", "o", opts)
@@ -62,8 +59,8 @@ map("v", "<A-down>", ":m '>+1<cr>gv=gv", { desc = "Move Down" })
 map("v", "<A-up>", ":m '<-2<cr>gv=gv", { desc = "Move Up" })
 
 -- Windows (Panes)
-map("n", "ss", ":split<Return>", opts)
-map("n", "sv", ":vsplit<Return>", opts)
+map("n", "ss", "<cmd>split<Return>", opts)
+map("n", "sv", "<cmd>vsplit<Return>", opts)
 map("n", "<S-Left>", "<C-w>h", opts)
 map("n", "<S-Right>", "<C-w>l", opts)
 map("n", "<S-Up>", "<C-w>k", opts)

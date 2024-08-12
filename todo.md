@@ -27,3 +27,4 @@ ui = {
 - [x] change green color of brackets to gray(ish)
 - [x] change rose-pine theme for terminal
 - [x] remap `<C-c>` to switch modes
+- [ ] - address issue on `bufferline.nvim` that `BufferLineCloseOthers` throws error
