@@ -10,7 +10,7 @@
 - [ ] - setup latex support
 - [ ] - setup RU locale support
 - [x] - make theme transparent
-  - [ ] - make noice transparent
+  - [x] - make noice transparent
 - [x] - fix bufferline
 - [x] - change `codeAction` sign from lspsaga's to default one from lspconfig
 
@@ -26,5 +26,4 @@ ui = {
 
 - [x] change green color of brackets to gray(ish)
 - [x] change rose-pine theme for terminal
-- [ ] change color of cmd text
 - [x] remap `<C-c>` to switch modes
