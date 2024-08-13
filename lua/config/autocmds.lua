@@ -13,3 +13,13 @@ vim.api.nvim_create_autocmd("FileType", {
     map(0, "n", "e", ":NextError<Return>", opts)
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "org",
+  callback = function()
+    vim.keymap.set("n", "<C-Space>", '<cmd>lua require("orgmode").action("org_mappings.toggle_checkbox")<CR>', {
+      silent = true,
+      buffer = true,
+    })
+  end,
+})

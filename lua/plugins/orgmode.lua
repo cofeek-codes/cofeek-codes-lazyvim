@@ -4,10 +4,9 @@ return {
     event = "VeryLazy",
     ft = { "org" },
     config = function()
-      -- Setup orgmode
       require("orgmode").setup({
-        org_agenda_files = "~/orgfiles/**/*",
-        org_default_notes_file = "~/orgfiles/refile.org",
+        org_agenda_files = "~/notes/**/*",
+        org_default_notes_file = "~/notes/refile.org",
       })
     end,
   },
