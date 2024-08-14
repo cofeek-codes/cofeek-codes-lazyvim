@@ -8,6 +8,7 @@ return {
         sign = false,
         icons = { "󰲡 ", "󰲣 ", "󰲥 ", "󰲧 ", "󰲩 ", "󰲫 " },
       },
+      pipe_table = { preset = "round" },
       latex = {
         enabled = true,
         converter = "latex2text",
