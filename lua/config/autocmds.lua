@@ -15,9 +15,11 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = "org",
+  pattern = "markdown",
   callback = function()
-    vim.keymap.set("n", "<C-Space>", '<cmd>lua require("orgmode").action("org_mappings.toggle_checkbox")<CR>', {
+    vim.keymap.set("n", "<C-Space>", function()
+      require("obsidian").util.toggle_checkbox()
+    end, {
       silent = true,
       buffer = true,
     })

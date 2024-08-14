@@ -13,5 +13,13 @@ return {
         path = "~/notes",
       },
     },
+    mappings = {
+      ["<C-Space>"] = {
+        action = function()
+          return require("obsidian").util.toggle_checkbox()
+        end,
+        opts = { buffer = true },
+      },
+    },
   },
 }
