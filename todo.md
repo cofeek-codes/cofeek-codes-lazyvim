@@ -32,7 +32,7 @@ ui = {
 - [x] change rose-pine theme for terminal
 - [x] remap `<C-c>` to switch modes
 - [ ] address issue on `bufferline.nvim` that `BufferLineCloseOthers` throws error
-- [ ] disable `x256-color` in terminal
+- [x] disable `x256-color` in terminal
   > [!NOTE]
   > disabling it didn't provide any visual effect (why?)
   > [!WARNING]
