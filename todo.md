@@ -3,8 +3,10 @@
 - [x] ~~install [neorg](https://github.com/nvim-neorg/neorg/)~~ fuck neorg the image.nvim doesn't work in my terminal
       [ ] - install all the necessary modules
 - [x] install some image viewer
-      [ ] make [image.nvim](https://github.com/3rd/image.nvim) work in my terminal
-      [x] address an issue about not working in xfce4-terminal
+  - [x] ~make [image.nvim](https://github.com/3rd/image.nvim) work in my terminal~
+    > [!NOTE]
+    > migrated to kitty
+  - [x] address an issue about not working in xfce4-terminal
 - [ ] figure out, how to view pdf and docx files
 - [x] setup [telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 - [x] setup lsp
@@ -39,3 +41,4 @@ ui = {
 - [ ] use [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 - [ ] handle reading pdf, odt and binaries
 - [ ] handle php lsp (and probably rust)
+- [x] configure and migrate to [kitty](https://sw.kovidgoyal.net/kitty/)
