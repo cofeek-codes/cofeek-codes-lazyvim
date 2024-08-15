@@ -9,3 +9,5 @@ vim.g.lazyvim_php_lsp = "intelephense"
 vim.opt.guicursor = ""
 
 vim.opt.statuscolumn = ""
+
+vim.opt.list = false
