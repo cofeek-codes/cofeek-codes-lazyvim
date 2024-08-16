@@ -25,3 +25,11 @@ vim.api.nvim_create_autocmd("FileType", {
     })
   end,
 })
+
+vim.api.nvim_create_autocmd("BufWritePost", {
+  pattern = "*.pu,*.uml,*.plantuml,*.puml,*.iuml",
+  callback = function()
+    local file_path = vim.fn.expand("%")
+    vim.fn.system(string.format("java -jar ~/.local/bin/plantuml.jar -tpng %s", file_path))
+  end,
+})
