@@ -42,3 +42,4 @@ ui = {
 - [ ] handle reading pdf, odt and binaries
 - [ ] handle php lsp (and probably rust)
 - [x] configure and migrate to [kitty](https://sw.kovidgoyal.net/kitty/)
+- [ ] make image.nvim redraw on autocmd
