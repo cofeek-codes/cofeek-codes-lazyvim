@@ -1,0 +1,5 @@
+return {
+  {
+    "romgrk/todoist.nvim",
+  },
+}
