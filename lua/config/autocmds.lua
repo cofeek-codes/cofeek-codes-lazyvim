@@ -33,3 +33,17 @@ vim.api.nvim_create_autocmd("BufWritePost", {
     vim.fn.system(string.format("java -jar ~/.local/bin/plantuml.jar -tpng %s", file_path))
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "image_nvim",
+  callback = function()
+    vim.keymap.set("n", "r", function()
+      local image = require("image").from_file(vim.fn.expand("%"))
+      if image then
+        image:clear()
+        image:render()
+      end
+      print("image should reload")
+    end, { silent = true, buffer = true })
+  end,
+})
