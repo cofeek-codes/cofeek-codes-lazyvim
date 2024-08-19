@@ -7,7 +7,7 @@ return {
       "vhyrro/luarocks.nvim",
       config = function()
         require("image").setup({
-          backend = "ueberzug",
+          backend = "kitty",
           kitty_method = "normal",
           integrations = {
             markdown = {
