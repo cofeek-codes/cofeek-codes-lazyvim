@@ -40,7 +40,10 @@ ui = {
 - [x] ~read about syncing latex with pdf readers (Zathura)~
 - [ ] use [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 - [ ] handle reading pdf, odt and binaries
+  - [x] handle reading pdf
+  - [ ] handle reading odt
+  - [x] ~handle reading binaries~
 - [ ] handle php lsp (and probably rust)
 - [x] configure and migrate to [kitty](https://sw.kovidgoyal.net/kitty/)
-- [ ] make image.nvim redraw on autocmd
+- [x] make image.nvim redraw ~on autocmd~
 - [ ] add custom snippets
