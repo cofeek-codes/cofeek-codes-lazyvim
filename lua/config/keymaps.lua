@@ -11,21 +11,6 @@ map("n", "_", "yyp", opts)
 -- Undo
 map({ "n", "i" }, "<C-z>", "u", opts)
 
--- Copy to clipboard
-map("v", "<M-w>", "y", opts)
-
--- Cut to clipboard
-map("v", "<C-w>", "d", opts)
-
--- Paste from clipboard
-map("n", "<C-y>", "P", opts)
-
--- Delete to start of line
-map("n", "da", "d0", opts)
-
--- Delete to end of line
-map("n", "d'", "d$", opts)
-
 -- Movement
 map({ "n", "v" }, "<C-right>", "el", opts)
 map({ "n", "v" }, "<C-left>", "bh", opts)
@@ -66,6 +51,7 @@ map("n", "<S-Right>", "<C-w>l", opts)
 map("n", "<S-Up>", "<C-w>k", opts)
 map("n", "<S-Down>", "<C-w>j", opts)
 map("n", "so", "<C-w>o", opts)
+map("n", "sd", "<C-w>q", opts)
 
 --Resize windows
 map("n", "<C-S-Left>", "<C-w><", opts)
