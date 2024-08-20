@@ -37,16 +37,19 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "markdown",
   callback = function()
-    vim.keymap.set("n", "<leader>m", function()
+    vim.keymap.set("n", "<leader>mm", function()
       print("get images should print images")
       for i, image in ipairs(require("image").get_images()) do
-        print(image.path)
         local current_buffer_number = vim.api.nvim_get_current_buf()
-        local total_lines = vim.api.nvim_buf_line_count(current_buffer_number)
         local markdown_link = string.format("![d%d](%s)", i, image.path)
-        vim.api.nvim_buf_set_lines(current_buffer_number, total_lines, total_lines + 1, false, { markdown_link })
+        vim.api.nvim_buf_set_lines(
+          current_buffer_number,
+          image.geometry.y - 1,
+          image.geometry.y,
+          false,
+          { markdown_link }
+        )
       end
-      print("images printed")
     end, { silent = true, buffer = true })
   end,
 })
