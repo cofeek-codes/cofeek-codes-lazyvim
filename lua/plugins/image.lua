@@ -1,7 +1,6 @@
 return {
   {
     "3rd/image.nvim",
-    branch = "feat-handle-source-image-external-changes",
     dependencies = { "luarocks.nvim" },
     config = function()
       -- default config
