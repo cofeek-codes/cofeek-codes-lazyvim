@@ -35,15 +35,18 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 })
 
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = "image_nvim",
+  pattern = "markdown",
   callback = function()
-    vim.keymap.set("n", "r", function()
-      local image = require("image").from_file(vim.fn.expand("%"))
-      if image then
-        image:clear()
-        image:render()
+    vim.keymap.set("n", "<leader>m", function()
+      print("get images should print images")
+      for i, image in ipairs(require("image").get_images()) do
+        print(image.path)
+        local current_buffer_number = vim.api.nvim_get_current_buf()
+        local total_lines = vim.api.nvim_buf_line_count(current_buffer_number)
+        local markdown_link = string.format("![d%d](%s)", i, image.path)
+        vim.api.nvim_buf_set_lines(current_buffer_number, total_lines, total_lines + 1, false, { markdown_link })
       end
-      print("image should reload")
+      print("images printed")
     end, { silent = true, buffer = true })
   end,
 })
