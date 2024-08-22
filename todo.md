@@ -12,7 +12,7 @@
 - [x] setup lsp
 - [x] work with keybinds
 - [x] setup latex support
-- [ ] setup RU locale support
+- [ ] ~setup RU locale support~
 - [x] make theme transparent
 - [x] make noice transparent
 - [x] fix bufferline
