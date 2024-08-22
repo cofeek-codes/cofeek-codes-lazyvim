@@ -46,5 +46,5 @@ ui = {
 - [ ] handle php lsp (and probably rust)
 - [x] configure and migrate to [kitty](https://sw.kovidgoyal.net/kitty/)
 - [x] make image.nvim redraw ~on autocmd~
-- [ ] add custom snippets
+- [x] add custom snippets
 - [x] clean keymaps
