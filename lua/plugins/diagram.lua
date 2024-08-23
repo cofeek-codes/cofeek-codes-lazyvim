@@ -14,6 +14,13 @@ return {
         plantuml = {
           charset = nil,
         },
+        d2 = {
+          theme_id = nil,
+          dark_theme_id = nil,
+          scale = nil,
+          layout = nil,
+          sketch = nil,
+        },
       },
     },
   },
