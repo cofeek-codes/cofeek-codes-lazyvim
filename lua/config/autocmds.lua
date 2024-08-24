@@ -9,8 +9,8 @@ local opts = { noremap = true }
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "compilation",
   callback = function()
-    map(0, "n", "r", ":Recompile<Return>", opts)
-    map(0, "n", "e", ":NextError<Return>", opts)
+    map(0, "n", "r", "<cmd>Recompile<CR>", opts)
+    map(0, "n", "e", "<cmd>NextError<CR>", opts)
   end,
 })
 
