@@ -44,7 +44,7 @@ ui = {
   - [x] ~handle reading binaries~
 - [ ] handle php lsp (and probably rust)
   - [x] php
-  - [ ] rust
+  - [x] ~rust~
 - [x] configure and migrate to [kitty](https://sw.kovidgoyal.net/kitty/)
 - [x] make image.nvim redraw ~on autocmd~
 - [x] add custom snippets
