@@ -11,4 +11,10 @@
     "description": "Markdown note header",
     "scope": "markdown",
   },
+  "php block snippet": {
+    "prefix": ["php"],
+    "body": ["<?php $0 ?>"],
+    "description": "php block",
+    "scope": "php",
+  },
 }
