@@ -11,3 +11,5 @@ vim.opt.guicursor = ""
 vim.opt.statuscolumn = ""
 
 vim.opt.list = false
+
+vim.g.solarized_termtrans = 1

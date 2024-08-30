@@ -49,3 +49,4 @@ ui = {
 - [x] make image.nvim redraw ~on autocmd~
 - [x] add custom snippets
 - [x] clean keymaps
+- [ ] finish theming `NeoTreeTitleBar`
