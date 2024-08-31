@@ -50,3 +50,4 @@ ui = {
 - [x] add custom snippets
 - [x] clean keymaps
 - [x] finish theming `NeoTreeTitleBar`
+- [ ] fix git hunk add highlight
