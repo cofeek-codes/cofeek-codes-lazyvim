@@ -22,7 +22,7 @@ return {
           vim.api.nvim_set_hl(0, "LazyButton", { link = "Visual" })
           vim.api.nvim_set_hl(0, "LazyButtonActive", { link = "IncSearch" })
           vim.api.nvim_set_hl(0, "ErrorMsg", { bg = "none" })
-          vim.api.nvim_set_hl(0, "NeoTreeTitleBar", { fg = "#b58900", bg = "#93a1a1" })
+          vim.api.nvim_set_hl(0, "NeoTreeTitleBar", { fg = "#000000", bg = "#93a1a1" })
           vim.api.nvim_set_hl(0, "@markup.list.checked", { link = "@text.reference" })
           vim.api.nvim_set_hl(0, "@markup.list.unchecked", { link = "@text.reference" })
           vim.api.nvim_set_hl(0, "@markup.strikethrough", { fg = "#586e75", strikethrough = true })
