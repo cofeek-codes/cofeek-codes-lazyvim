@@ -51,3 +51,4 @@ ui = {
 - [x] clean keymaps
 - [x] finish theming `NeoTreeTitleBar`
 - [ ] fix git hunk add highlight
+- [ ] fix lualine background color
