@@ -2,6 +2,7 @@ return {
   {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
+    dependencies = { "Tsuzat/NeoSolarized.nvim" },
     init = function()
       vim.g.lualine_laststatus = vim.o.laststatus
       if vim.fn.argc(-1) > 0 then
@@ -23,7 +24,7 @@ return {
 
       local opts = {
         options = {
-          theme = "auto",
+          theme = "NeoSolarized",
           globalstatus = vim.o.laststatus == 3,
           disabled_filetypes = { statusline = { "dashboard", "alpha", "ministarter" } },
         },
