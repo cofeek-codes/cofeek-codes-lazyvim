@@ -16,6 +16,7 @@
   "compile-mode.nvim": { "branch": "latest", "commit": "2bf8381871bf7a9dad347938ddef6b09a1735bdb" },
   "conform.nvim": { "branch": "master", "commit": "0ebe875d9c306f5fc829db38492ffff2a70d8e9d" },
   "crates.nvim": { "branch": "main", "commit": "b3b9ac6ed9618955b24bf9adede7530ef608495b" },
+  "d2-vim": { "branch": "master", "commit": "981c87dccb63df2887cc41b96e84bf550f736c57" },
   "dashboard-nvim": { "branch": "master", "commit": "fabf5feec96185817c732d47d363f34034212685" },
   "diagram.nvim": { "branch": "master", "commit": "d19b9bb2ca162facc242c357c2802b8cfab6b55c" },
   "dressing.nvim": { "branch": "master", "commit": "c5775a888adbc50652cb370073fcfec963eca93e" },
