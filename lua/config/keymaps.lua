@@ -68,3 +68,8 @@ map("n", "<C-l>", "<cmd>Compile<CR>", opts)
 -- Quickly go to insert-mode
 map("n", "<C-c>", "i", opts)
 map("i", "<C-c>", "<Esc>", opts)
+
+-- Switch language
+map({ "n", "i" }, "<C-\\>", function()
+  require("config.functions").change_language()
+end, opts)

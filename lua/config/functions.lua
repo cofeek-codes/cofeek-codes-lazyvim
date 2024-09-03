@@ -10,4 +10,22 @@ function M.close_other_buffers()
   end
 end
 
+function M.change_language()
+  local current_keymap = vim.opt.keymap:get()
+
+  if current_keymap == "" then
+    vim.opt.keymap = "russian-jcukenwin"
+    vim.notify("Language changed to Russian", vim.log.levels.INFO, {
+      title = "Neovim Language",
+      icon = "🇷🇺",
+    })
+  elseif current_keymap == "russian-jcukenwin" then
+    vim.opt.keymap = ""
+    vim.notify("Language changed to English", vim.log.levels.INFO, {
+      title = "Neovim Language",
+      icon = "🇬🇧",
+    })
+  end
+end
+
 return M
