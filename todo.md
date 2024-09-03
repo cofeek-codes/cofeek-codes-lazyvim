@@ -42,7 +42,7 @@ ui = {
   - [x] handle reading pdf
   - [ ] handle reading odt
   - [x] ~handle reading binaries~
-- [ ] handle php lsp (and probably rust)
+- [x] handle php lsp (and probably rust)
   - [x] php
   - [x] ~rust~
 - [x] configure and migrate to [kitty](https://sw.kovidgoyal.net/kitty/)
@@ -52,3 +52,4 @@ ui = {
 - [x] finish theming `NeoTreeTitleBar`
 - [ ] fix git hunk add highlight
 - [x] ~fix lualine background color~ change lualine theme to Neosolarized
+- [ ] add `change_languages` to lualine and add nofitications
