@@ -53,3 +53,4 @@ ui = {
 - [ ] fix git hunk add highlight
 - [x] ~fix lualine background color~ change lualine theme to Neosolarized
 - [ ] add `change_languages` to lualine and add nofitications
+- [ ] add `shell-escape` argument to [pandoc config](./lua/plugins/pandoc.lua)
