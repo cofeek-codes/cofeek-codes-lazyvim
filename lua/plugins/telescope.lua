@@ -5,8 +5,8 @@ return {
       { "nvim-telescope/telescope-file-browser.nvim" },
     },
     keys = {
-      { "<leader>f;", ":Telescope file_browser<Return>", desc = "File Browser" },
-      { "<leader>s;", ":Telescope spell_suggest<Return>", desc = "Spell Suggest" },
+      { "<leader>f;", "<cmd>Telescope file_browser<CR>", desc = "File Browser" },
+      { "<leader>s;", "<cmd>Telescope spell_suggest<CR>", desc = "Spell Suggest" },
     },
     config = function()
       require("telescope").setup({
