@@ -7,7 +7,7 @@ return {
       },
       formatters = {
         prettier = {
-          prepend_args = { "--no-semi", "--single-quote", "--jsx-single-quote", "--arrow-parens=avoid" },
+          prepend_args = { "--no-semi", "--use-tabs", "--single-quote", "--jsx-single-quote", "--arrow-parens=avoid" },
         },
       },
     },
