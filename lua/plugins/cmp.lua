@@ -7,12 +7,6 @@ return {
       table.insert(opts.sources, { name = "orgmode" })
       table.insert(opts.sources, { name = "buffer" })
       opts.window = {
-        completion = {
-          border = "rounded",
-          winhighlight = "Normal:MyHighlight,CursorLine:PmenuSel",
-          winblend = 0,
-        },
-
         documentation = {
           border = "rounded",
           winhighlight = "Normal:MyHighlight",
