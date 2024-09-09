@@ -54,3 +54,4 @@ ui = {
 - [x] ~fix lualine background color~ change lualine theme to Neosolarized
 - [ ] add `change_languages` to lualine and add nofitications
 - [ ] add `shell-escape` argument to [pandoc config](./lua/plugins/pandoc.lua)
+- [ ] setup [blade parser](https://medium.com/@jogarcia/laravel-blade-on-neovim-ee530ff5d20d)
