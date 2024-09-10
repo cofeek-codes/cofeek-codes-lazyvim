@@ -85,3 +85,10 @@ vim.api.nvim_create_autocmd("BufRead", {
     vim.keymap.set("n", "<leader>cL", crates.open_lib_rs, { silent = true, desc = "Crates Open lib.rs" })
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "blade",
+  callback = function()
+    vim.treesitter.start()
+  end,
+})

@@ -4,6 +4,7 @@ return {
     opts = {
       formatters_by_ft = {
         php = { "phpcs", lsp_format = "prefer" },
+        blade = { "blade-formatter" },
       },
       formatters = {
         prettier = {

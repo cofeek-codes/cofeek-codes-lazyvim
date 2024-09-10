@@ -15,3 +15,9 @@ vim.opt.list = false
 vim.g.solarized_termtrans = 1
 
 vim.opt.spelllang = "en,ru"
+
+vim.filetype.add({
+  pattern = {
+    [".*%.blade%.php"] = "blade",
+  },
+})
