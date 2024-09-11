@@ -11,6 +11,7 @@ return {
         CursorLine = { bg = "none" },
         CursorLineNr = { bg = "none" },
         NeoTreeTitleBar = { fg = "#000000", bg = "#93a1a1" },
+        ["@tag.html"] = { link = "htmlTag" },
       },
     },
   },
