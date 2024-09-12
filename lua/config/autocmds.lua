@@ -89,6 +89,5 @@ vim.api.nvim_create_autocmd("BufRead", {
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "blade",
   callback = function()
-    vim.treesitter.start()
   end,
 })
