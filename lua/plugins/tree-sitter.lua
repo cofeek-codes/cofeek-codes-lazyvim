@@ -12,7 +12,7 @@ return {
         },
         filetype = "blade",
       }
-      opts.ensure_installed = { "http" }
+      opts.ensure_installed = { "http", "latex" }
     end,
   },
 }
