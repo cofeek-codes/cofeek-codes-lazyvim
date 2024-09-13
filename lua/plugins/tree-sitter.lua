@@ -12,6 +12,7 @@ return {
         },
         filetype = "blade",
       }
+      opts.ensure_installed = { "http" }
     end,
   },
 }

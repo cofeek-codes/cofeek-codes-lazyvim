@@ -5,6 +5,7 @@ return {
       formatters_by_ft = {
         php = { "phpcs", lsp_format = "prefer" },
         blade = { "blade-formatter" },
+        http = { "kulala-fmt" },
       },
       formatters = {
         prettier = {

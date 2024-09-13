@@ -17,3 +17,4 @@ This is my Neovim config that provides support for most of languages, frameworks
 - [wakatime](https://github.com/wakatime/vim-wakatime) - [wakatime](https://wakatime.com) plugin for neovim
 - [oil](https://github.com/stevearc/oil.nvim) - Neovim file explorer: edit your filesystem like a buffer
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) - markdown preview for (neo)vim
+- [kulala.nvim](https://github.com/mistweaverco/kulala.nvim) - minimal http-client for neovim
