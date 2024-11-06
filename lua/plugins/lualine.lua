@@ -69,6 +69,17 @@ return {
           },
           -- stylua: ignore
           {
+            function ()
+              if vim.opt.keymap._value == "" then
+                  return "ENG"
+                else
+                  return "RU"
+              end
+            end,
+            color = function() return LazyVim.ui.fg("Special") end,
+          },
+          -- stylua: ignore
+          {
             require("lazy.status").updates,
             cond = require("lazy.status").has_updates,
             color = function() return LazyVim.ui.fg("Special") end,
