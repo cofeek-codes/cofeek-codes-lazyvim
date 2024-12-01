@@ -92,26 +92,3 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.bo.commentstring = "{{-- %s --}}"
   end,
 })
-
-vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
-  pattern = "*.http",
-  callback = function()
-    vim.bo.filetype = "http"
-    vim.bo.commentstring = "# %s"
-    -- keymaps
-
-    local kulala = require("kulala")
-
-    vim.keymap.set("n", "<leader>kr", kulala.run, { silent = true, desc = "Kulala Run Request" })
-    vim.keymap.set("n", "<leader>ka", kulala.run_all, { silent = true, desc = "Kulala Run All" })
-    vim.keymap.set("n", "<leader>kR", kulala.replay, { silent = true, desc = "Kulala Replay" })
-    vim.keymap.set("n", "<leader>ki", kulala.inspect, { silent = true, desc = "Kulala Inspect" })
-    vim.keymap.set("n", "<leader>ks", kulala.show_stats, { silent = true, desc = "Kulala Show Stats" })
-    vim.keymap.set("n", "<leader>ko", kulala.scratchpad, { silent = true, desc = "Kulala Open Scratchpad" })
-    vim.keymap.set("n", "<leader>k/", kulala.search, { silent = true, desc = "Kulala Search" })
-    vim.keymap.set("n", "<leader>kk", kulala.jump_prev, { silent = true, desc = "Kulala Jump Prev" })
-    vim.keymap.set("n", "<leader>kj", kulala.jump_next, { silent = true, desc = "Kulala Jump Next" })
-    vim.keymap.set("n", "<leader>kc", kulala.copy, { silent = true, desc = "Kulala Copy Command" })
-    vim.keymap.set("n", "<leader>kp", kulala.from_curl, { silent = true, desc = "Kulala From Curl" })
-  end,
-})
