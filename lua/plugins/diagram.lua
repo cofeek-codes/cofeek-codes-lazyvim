@@ -4,6 +4,7 @@ return {
     dependencies = {
       "3rd/image.nvim",
     },
+    ft = { "markdown" },
     opts = { -- you can just pass {}, defaults below
       renderer_options = {
         mermaid = {
