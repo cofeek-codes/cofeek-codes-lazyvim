@@ -16,6 +16,8 @@ vim.g.solarized_termtrans = 1
 
 vim.opt.spelllang = "en,ru"
 
+vim.g.snacks_animate = false
+
 vim.filetype.add({
   pattern = {
     [".*%.blade%.php"] = "blade",
