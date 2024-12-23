@@ -18,6 +18,8 @@ vim.opt.spelllang = "en,ru"
 
 vim.g.snacks_animate = false
 
+vim.g.lazyvim_blink_main = false
+
 vim.filetype.add({
   pattern = {
     [".*%.blade%.php"] = "blade",

@@ -1,7 +1,6 @@
 {
   "LazyVim": { "branch": "main", "commit": "d0c366e4d861b848bdc710696d5311dca2c6d540" },
   "LuaSnip": { "branch": "master", "commit": "33b06d72d220aa56a7ce80a0dd6f06c70cd82b9d" },
-  "NeoSolarized.nvim": { "branch": "master", "commit": "bdfcdd056c4c73b10fc6f42f0c2d0df839ff49ae" },
   "SchemaStore.nvim": { "branch": "main", "commit": "af3f82cd4972520e6ac04c48ed3eed473660efca" },
   "baleia.nvim": { "branch": "main", "commit": "fb3aff021b2b64ef820d0230d2c22ebfaf71bb6a" },
   "blink.cmp": { "branch": "main", "commit": "a9a0f96c6a1029884e37dfd74a88a075b40366dd" },
